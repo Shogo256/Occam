@@ -327,7 +327,7 @@ wears the same face as a pass.
 
 | | |
 |---|---|
-| upstream | `https://github.com/Escoffier1156/KeepOut.git`, commit `cf65f79` |
+| upstream | `https://github.com/Shogo256/KeepOut.git`, commit `cf65f79` |
 | record | `third_party/keepout/manifest.json` — the commit and the SHA256 of each file |
 | drift | `tests/test_invariants_locked.py` compares the hashes. Change the copy without fixing the manifest and it fails |
 | absence | **a failure, not a skip** (`test_the_guard_is_not_silently_absent`) |

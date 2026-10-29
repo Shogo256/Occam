@@ -3,7 +3,7 @@
   "what_it_does": "refuses structural edits to the regions marked [LOCK] in engine/ and to the guards the memory invariants depend on. tests/test_invariants_locked.py runs it",
   "why_vendored": "it used to be read from a sibling checkout named by an absolute path in shell.nix, so on any other machine the guard was silently absent and the lock test skipped. The invariant it protects is the load-bearing claim of this project, so it travels with the repository",
   "upstream": {
-    "url": "https://github.com/Escoffier1156/KeepOut.git",
+    "url": "https://github.com/Shogo256/KeepOut.git",
     "commit": "cf65f79ad6f6fde90b7cd5714a272c12d9e78976",
     "commit_subject": "Stop reporting a pass for a region the PBT engine never called",
     "committed": "2026-10-15T18:51:15+09:00",

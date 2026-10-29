@@ -68,7 +68,7 @@ FROM docker.io/library/python:3.14-slim@sha256:a2b82f3c48559aa0a8446d9af49826b6e
 LABEL org.opencontainers.image.title="Occam"
 LABEL org.opencontainers.image.description="A screening feasibility checkpoint for Gram-negative accumulation: what holds, what does not, and what to do about the part that does not. It emits no molecules."
 LABEL org.opencontainers.image.licenses="Apache-2.0"
-LABEL org.opencontainers.image.source="https://github.com/Escoffier1156/Occam"
+LABEL org.opencontainers.image.source="https://github.com/Shogo256/Occam"
 
 # Pinned to what shell.nix actually provides, read from the running
 # interpreter rather than guessed: an image built against different versions

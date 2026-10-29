@@ -182,7 +182,7 @@ The reasoning is at the top of the [`Dockerfile`](Dockerfile).
 box:
 
 ```bash
-git clone https://github.com/Escoffier1156/Occam && cd Occam
+git clone https://github.com/Shogo256/Occam && cd Occam
 podman build --build-arg OCCAM_VERSION="$(git describe --always --dirty --abbrev=10)" -t occam .
 podman run --rm occam --help
 ```
@@ -456,7 +456,7 @@ of them — and needs the data. 27 minutes, measured.
 `--test-threads=1` is required, not tidiness: one Rust test deliberately holds
 a guard that another trips if they overlap.
 
-Some regions are frozen with [KeepOut](https://github.com/Escoffier1156/KeepOut)
+Some regions are frozen with [KeepOut](https://github.com/Shogo256/KeepOut)
 and will refuse a structural edit. `tests/test_invariants_locked.py` lists
 which ones and why each is frozen.
 
